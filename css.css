@@ -1,0 +1,44 @@
+
+        body{
+            margin: 50px;
+        }
+ 
+        
+    div:nth-child(even) {
+        background-color: green;
+        height: 100px;
+        width: 100px;
+        margin-top: 60px;
+        margin-left: 10px;
+        border: 2px solid black;
+        display: inline-block;
+        position: absolute;
+        margin-bottom: 100px;
+    }
+    div:nth-child(odd) {
+        background-color: yellow;
+        height: 100px;
+        width: 100px;
+        margin-left: 120px;
+        border: 2px solid black;
+        display: inline-block;
+        margin-bottom: 100px;
+    }
+    h5{
+        margin-bottom: 40px;
+    }
+    .num {
+        background-color: red;
+        height: 50px;
+        width: 100px;
+        border: 2px solid black;
+        color: white;
+        display: inline-block;
+        text-align: center;  
+        padding-top: 20px;
+
+    }
+    .num:nth-child(odd){
+        display: none;
+    }
+   
